@@ -1,0 +1,2 @@
+int string secure_comm_debug_name 0x0
+int string secure_comm_main_name 0x0

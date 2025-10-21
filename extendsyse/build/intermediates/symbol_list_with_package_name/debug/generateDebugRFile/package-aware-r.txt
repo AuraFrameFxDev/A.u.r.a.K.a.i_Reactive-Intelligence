@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.extendsyse
+string module_e_debug_name
+string module_e_main_name

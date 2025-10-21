@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string collab_canvas_debug_name
+string collab_canvas_main_name

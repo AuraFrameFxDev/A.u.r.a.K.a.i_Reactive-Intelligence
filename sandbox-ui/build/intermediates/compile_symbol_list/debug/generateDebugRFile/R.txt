@@ -1,0 +1,2 @@
+int string sandbox_ui_debug_name 0x0
+int string sandbox_ui_main_name 0x0

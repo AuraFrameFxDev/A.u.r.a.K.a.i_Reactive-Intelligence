@@ -1,0 +1,5 @@
+# ninja log v5
+12	2838	7821239688775749	CMakeFiles/oracle_drive_integration.dir/oracle_integration_jni.cpp.o	bd3771492653b549
+5	219	7821493837339809	build.ninja	821ac402cf409526
+2841	4103	7821239697534755	C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/oracle-drive-integration/build/intermediates/cxx/Debug/6w1m601w/obj/arm64-v8a/liboracle_drive_integration.so	8e540f58523f803c
+0	12	0	clean	bfff2010d6239e2d

@@ -1,0 +1,2 @@
+int string module_d_debug_name 0x0
+int string module_d_main_name 0x0

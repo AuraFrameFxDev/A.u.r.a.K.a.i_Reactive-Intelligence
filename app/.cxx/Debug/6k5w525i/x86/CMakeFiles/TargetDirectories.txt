@@ -1,0 +1,3 @@
+C:/Users/Wehtt/OneDrive/Aurakai/app/.cxx/Debug/6k5w525i/x86/CMakeFiles/auraframefx.dir
+C:/Users/Wehtt/OneDrive/Aurakai/app/.cxx/Debug/6k5w525i/x86/CMakeFiles/edit_cache.dir
+C:/Users/Wehtt/OneDrive/Aurakai/app/.cxx/Debug/6k5w525i/x86/CMakeFiles/rebuild_cache.dir

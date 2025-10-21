@@ -1,0 +1,4 @@
+dev.aurakai.auraframefx.romtools
+string rom_service_description
+string romtools_debug_name
+string romtools_main_name

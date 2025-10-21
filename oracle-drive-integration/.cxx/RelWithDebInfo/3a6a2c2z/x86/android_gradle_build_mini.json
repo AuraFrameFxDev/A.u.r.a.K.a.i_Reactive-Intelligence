@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\A.u.r.a.K.a.i-\\oracle-drive-integration\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\ninja.exe",
+      "-C",
+      "C:\\A.u.r.a.K.a.i-\\oracle-drive-integration\\.cxx\\RelWithDebInfo\\3a6a2c2z\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\4.1.2\\bin\\ninja.exe",
+    "-C",
+    "C:\\A.u.r.a.K.a.i-\\oracle-drive-integration\\.cxx\\RelWithDebInfo\\3a6a2c2z\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "oracle_drive_integration::@6890427a1f51a3e7e1df": {
+      "artifactName": "oracle_drive_integration",
+      "abi": "x86",
+      "output": "C:\\A.u.r.a.K.a.i-\\oracle-drive-integration\\build\\intermediates\\cxx\\RelWithDebInfo\\3a6a2c2z\\obj\\x86\\liboracle_drive_integration.so",
+      "runtimeFiles": []
+    }
+  }
+}

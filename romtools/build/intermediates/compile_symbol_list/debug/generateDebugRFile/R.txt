@@ -1,0 +1,3 @@
+int string rom_service_description 0x0
+int string romtools_debug_name 0x0
+int string romtools_main_name 0x0

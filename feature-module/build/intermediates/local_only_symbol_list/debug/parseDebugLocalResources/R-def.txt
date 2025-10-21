@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string feature_module_debug_name
+string feature_module_main_name

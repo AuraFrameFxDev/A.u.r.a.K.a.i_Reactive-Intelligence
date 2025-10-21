@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+string rom_service_description
+string romtools_debug_name
+string romtools_main_name

@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.colorblendr
+string colorblendr_debug_name
+string colorblendr_main_name

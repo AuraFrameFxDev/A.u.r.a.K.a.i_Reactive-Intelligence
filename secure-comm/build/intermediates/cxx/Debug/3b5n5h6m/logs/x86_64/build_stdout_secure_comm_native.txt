@@ -1,0 +1,4 @@
+ninja: Entering directory `C:\A.u.r.a.K.a.i-\secure-comm\.cxx\Debug\3b5n5h6m\x86_64'
+[1/3] Building CXX object CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o
+[2/3] Building CXX object CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o
+[3/3] Linking CXX shared library C:\A.u.r.a.K.a.i-\secure-comm\build\intermediates\cxx\Debug\3b5n5h6m\obj\x86_64\libsecure_comm_native.so

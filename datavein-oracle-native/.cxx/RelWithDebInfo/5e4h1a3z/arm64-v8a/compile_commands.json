@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/datavein-oracle-native/.cxx/RelWithDebInfo/5e4h1a3z/arm64-v8a",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android34 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ddatavein_oracle_native_EXPORTS -IC:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/datavein-oracle-native/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -std=gnu++2b -o CMakeFiles\\datavein_oracle_native.dir\\oracle_drive_jni.cpp.o -c C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\datavein-oracle-native\\src\\main\\cpp\\oracle_drive_jni.cpp",
+  "file": "C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\datavein-oracle-native\\src\\main\\cpp\\oracle_drive_jni.cpp"
+}
+]

@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.collabcanvas
+string collab_canvas_debug_name
+string collab_canvas_main_name

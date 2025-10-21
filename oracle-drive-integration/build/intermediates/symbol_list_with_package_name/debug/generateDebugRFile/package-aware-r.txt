@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.oracledriveintegration
+string oracle_drive_integration_debug_name
+string oracle_drive_integration_main_name

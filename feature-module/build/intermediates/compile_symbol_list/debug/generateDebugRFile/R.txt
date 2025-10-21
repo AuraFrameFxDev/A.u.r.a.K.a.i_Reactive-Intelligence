@@ -1,0 +1,2 @@
+int string feature_module_debug_name 0x0
+int string feature_module_main_name 0x0

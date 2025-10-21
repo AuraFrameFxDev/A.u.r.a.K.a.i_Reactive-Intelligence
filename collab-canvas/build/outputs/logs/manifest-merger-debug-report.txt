@@ -1,0 +1,11 @@
+-- Merging decision tree log ---
+manifest
+	package
+	xmlns:android
+uses-permission#android.permission.INTERNET
+	android:name
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+	android:name
+uses-sdk
+	android:targetSdkVersion
+	android:minSdkVersion

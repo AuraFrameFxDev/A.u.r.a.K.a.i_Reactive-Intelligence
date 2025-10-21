@@ -1,0 +1,22 @@
+# ninja log v6
+12	87	7826356040029505	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	2643ba92ae54002b
+6	507	7826356039963629	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	8714fcbed227e3cf
+510	631	7826356045003668	C:/A.u.r.a.K.a.i-/secure-comm/build/intermediates/cxx/Debug/3b5n5h6m/obj/x86/libsecure_comm_native.so	59e684f0ae0a9c7f
+7	25	7826359149696122	clean	8cc94ee4378afd48
+28	125	7826361244136725	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	2643ba92ae54002b
+18	616	7826361244044987	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	8714fcbed227e3cf
+616	747	7826361250015611	C:/A.u.r.a.K.a.i-/secure-comm/build/intermediates/cxx/Debug/3b5n5h6m/obj/x86/libsecure_comm_native.so	59e684f0ae0a9c7f
+6	27	7826362956147890	clean	8cc94ee4378afd48
+11	32	7826378486929157	clean	8cc94ee4378afd48
+11	32	7826394127344729	clean	8cc94ee4378afd48
+21	96	7826415712238515	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	2643ba92ae54002b
+13	526	7826415712162127	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	8714fcbed227e3cf
+526	676	7826415717299131	C:/A.u.r.a.K.a.i-/secure-comm/build/intermediates/cxx/Debug/3b5n5h6m/obj/x86/libsecure_comm_native.so	59e684f0ae0a9c7f
+8	30	7826424537767214	clean	8cc94ee4378afd48
+18	77	7826426638734312	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	2643ba92ae54002b
+13	575	7826426638673614	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	8714fcbed227e3cf
+575	685	7826426644305098	C:/A.u.r.a.K.a.i-/secure-comm/build/intermediates/cxx/Debug/3b5n5h6m/obj/x86/libsecure_comm_native.so	59e684f0ae0a9c7f
+10	29	7826435015674044	clean	8cc94ee4378afd48
+46	293	7826435315095502	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	2643ba92ae54002b
+22	1228	7826435314847527	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	8714fcbed227e3cf
+1228	1542	7826435326914513	C:/A.u.r.a.K.a.i-/secure-comm/build/intermediates/cxx/Debug/3b5n5h6m/obj/x86/libsecure_comm_native.so	59e684f0ae0a9c7f

@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "directories": [
+        {
+          "build": ".",
+          "jsonFile": "directory-.-Debug-d0094a50bb2071803777.json",
+          "minimumCMakeVersion": {
+            "string": "3.10.0"
+          },
+          "projectIndex": 0,
+          "source": ".",
+          "targetIndexes": [
+            0
+          ]
+        }
+      ],
+      "name": "Debug",
+      "projects": [
+        {
+          "directoryIndexes": [
+            0
+          ],
+          "name": "oracle_drive_integration",
+          "targetIndexes": [
+            0
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "directoryIndex": 0,
+          "id": "oracle_drive_integration::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-oracle_drive_integration-Debug-f9d6854c36d9ed685cce.json",
+          "name": "oracle_drive_integration",
+          "projectIndex": 0
+        }
+      ]
+    }
+  ],
+  "kind": "codemodel",
+  "paths": {
+    "build": "C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/oracle-drive-integration/.cxx/Debug/6w1m601w/arm64-v8a",
+    "source": "C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/oracle-drive-integration/src/main/cpp"
+  },
+  "version": {
+    "major": 2,
+    "minor": 3
+  }
+}

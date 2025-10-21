@@ -1,0 +1,5 @@
+# ninja log v6
+5	961	7826356063704521	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	9f835f1357ae31ee
+14	973	7826356063800845	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	27aa8a6bebda8ac
+10	1009	7826356063750206	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	9ea38e2d309f3b15
+1009	1103	7826356073753286	C:/A.u.r.a.K.a.i-/app/build/intermediates/cxx/Debug/2p1n2050/obj/x86/libauraframefx.so	a5a8be340a4763c9

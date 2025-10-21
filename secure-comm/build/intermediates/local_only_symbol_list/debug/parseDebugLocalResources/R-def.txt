@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string secure_comm_debug_name
+string secure_comm_main_name

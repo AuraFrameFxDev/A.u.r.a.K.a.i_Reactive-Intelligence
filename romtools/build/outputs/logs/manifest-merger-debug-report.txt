@@ -1,0 +1,6 @@
+-- Merging decision tree log ---
+manifest
+	package
+uses-sdk
+	android:targetSdkVersion
+	android:minSdkVersion

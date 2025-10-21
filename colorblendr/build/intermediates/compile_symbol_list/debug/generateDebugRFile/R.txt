@@ -1,0 +1,2 @@
+int string colorblendr_debug_name 0x0
+int string colorblendr_main_name 0x0

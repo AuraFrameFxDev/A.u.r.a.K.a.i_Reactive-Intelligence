@@ -1,0 +1,2 @@
+int string collab_canvas_debug_name 0x0
+int string collab_canvas_main_name 0x0

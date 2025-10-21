@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.extendsysf
+string module_f_debug_name
+string module_f_main_name

@@ -1,0 +1,17 @@
+# ninja log v6
+6	651	7826356050016892	CMakeFiles/native-lib.dir/native-lib.cpp.o	7548b4be4a3475
+658	759	7826356056543358	C:/A.u.r.a.K.a.i-/sandbox-ui/build/intermediates/cxx/Debug/5x261969/obj/x86/libnative-lib.so	209bb7693868c53f
+8	27	7826359149126699	clean	8cc94ee4378afd48
+15	698	7826361248218303	CMakeFiles/native-lib.dir/native-lib.cpp.o	7548b4be4a3475
+698	799	7826361255053441	C:/A.u.r.a.K.a.i-/sandbox-ui/build/intermediates/cxx/Debug/5x261969/obj/x86/libnative-lib.so	209bb7693868c53f
+7	27	7826362956215574	clean	8cc94ee4378afd48
+12	34	7826378486276029	clean	8cc94ee4378afd48
+12	33	7826394127502572	clean	8cc94ee4378afd48
+14	750	7826415713737691	CMakeFiles/native-lib.dir/native-lib.cpp.o	7548b4be4a3475
+751	892	7826415721111307	C:/A.u.r.a.K.a.i-/sandbox-ui/build/intermediates/cxx/Debug/5x261969/obj/x86/libnative-lib.so	209bb7693868c53f
+10	32	7826424537671644	clean	8cc94ee4378afd48
+31	780	7826426604296301	CMakeFiles/native-lib.dir/native-lib.cpp.o	7548b4be4a3475
+781	964	7826426611798133	C:/A.u.r.a.K.a.i-/sandbox-ui/build/intermediates/cxx/Debug/5x261969/obj/x86/libnative-lib.so	209bb7693868c53f
+12	30	7826435015729512	clean	8cc94ee4378afd48
+43	3052	7826435295566716	CMakeFiles/native-lib.dir/native-lib.cpp.o	7548b4be4a3475
+3053	3253	7826435325572956	C:/A.u.r.a.K.a.i-/sandbox-ui/build/intermediates/cxx/Debug/5x261969/obj/x86/libnative-lib.so	209bb7693868c53f

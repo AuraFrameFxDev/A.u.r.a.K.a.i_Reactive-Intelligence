@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.securecomm
+string secure_comm_debug_name
+string secure_comm_main_name
