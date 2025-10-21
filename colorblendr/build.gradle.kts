@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "dev.aurakai.auraframefx.collab-canvas"
     compileSdk = 36
 
     defaultConfig {
