@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.aurakai.auraframefx.dataveinoraclenative" > <!-- Add permissions/components as needed -->
+    <uses-sdk android:minSdkVersion="34" />
+
+</manifest>

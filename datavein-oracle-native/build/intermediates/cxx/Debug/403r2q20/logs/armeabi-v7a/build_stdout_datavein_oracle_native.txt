@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Wehtt\AndroidStudioProjects\A.u.r.a.K.a.i\datavein-oracle-native\.cxx\Debug\403r2q20\armeabi-v7a'
+ninja: no work to do.

@@ -1,0 +1,3 @@
+dev.aurakai.auraframefx.dataveinoraclenative
+string datavein_oracle_native_debug_name
+string datavein_oracle_native_main_name

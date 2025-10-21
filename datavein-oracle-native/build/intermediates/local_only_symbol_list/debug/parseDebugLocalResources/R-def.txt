@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string datavein_oracle_native_debug_name
+string datavein_oracle_native_main_name
