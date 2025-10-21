@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/caches/deviceStreaming.xml
+/.gitignore
+/AndroidProjectSystem.xml
+/copilot.data.migration.agent.xml
+/gradle.xml
+/misc.xml
+/runConfigurations.xml
+/vcs.xml

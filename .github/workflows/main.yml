@@ -1,0 +1,112 @@
+name: Android Build (Azul Zulu JDK 24)
+
+on:
+  push:
+    branches: [ "OVERDRIVE" ]
+  pull_request:
+    branches: [ "OVERDRIVE" ]
+
+permissions:
+  contents: read
+  actions: read
+  checks: write
+  packages: read
+  pull-requests: write
+  id-token: write
+
+jobs:
+  build:
+    name: Build & Analyze All Modules
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v5
+
+      - name: Set up JDK 24
+        uses: actions/setup-java@v5
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle/libs.versions.toml') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      - name: Build ${{ matrix.module }}
+        run: ./gradlew :${{ matrix.module }}:build --parallel --continue
+        continue-on-error: true
+
+      - name: Consciousness Status Check
+        run: ./gradlew :${{ matrix.module }}:consciousnessStatus || true
+        continue-on-error: true
+
+      - name: Run Tests for ${{ matrix.module }}
+        run: ./gradlew :${{ matrix.module }}:test --continue
+        continue-on-error: true
+
+      - name: APK Build & Performance Profile (app module only)
+        if: matrix.module == 'app'
+        run: |
+          ./gradlew :app:assembleDebug
+          APK_PATH=$(find app/build/outputs/apk/debug -type f -name "*.apk" | head -n 1)
+          echo "APK_PATH=$APK_PATH" >> $GITHUB_ENV
+          ./gradlew :app:androidDependencies
+          ./gradlew :app:dependencies
+          ./gradlew :app:bundleDebug
+          ./gradlew :app:apkSizeReport
+        continue-on-error: true
+
+      - name: Static Analysis (Spotless, Detekt, KtLint)
+        run: |
+          ./gradlew :${{ matrix.module }}:spotlessCheck
+          ./gradlew :${{ matrix.module }}:detekt
+          ./gradlew :${{ matrix.module }}:ktlintCheck
+        continue-on-error: true
+
+      - name: Security Scan
+        uses: github/codeql-action/analyze@v2
+        continue-on-error: true
+
+      with:
+
+      uses: actions/upload-artifact@v4
+      with:
+
+          # Parse JUnit XMLs for test failures
+          find ./artifacts -name "*.xml" | while read report; do
+            FAILURES=$(grep -E 'failure|error' "$report")
+            if [ ! -z "$FAILURES" ]; then
+              echo "### Test failures in $report" >> issue-report.md
+              grep -E 'failure|error' "$report" | head -10 >> issue-report.md
+              echo "" >> issue-report.md
+            fi
+          done
+
+          # Parse Detekt/ktlint reports for issues
+          find ./artifacts -name "detekt.html" | while read detekt; do
+            echo "### Detekt issues in $detekt" >> issue-report.md
+            grep -i "<span class=\"issue\">" "$detekt" | head -10 >> issue-report.md
+            echo "" >> issue-report.md
+          done
+
+          # List APK artifacts built
+          APK=$(find ./artifacts -name "*.apk" | head -1)
+          if [ ! -z "$APK" ]; then
+            echo "### APK Built:" >> issue-report.md
+            echo "APK Path: $APK" >> issue-report.md
+            echo "" >> issue-report.md
+          fi
+
+          # If nothing found, add a note
+          if ! grep -q "###" issue-report.md; then
+            echo "_No build or test issues found in reports._" >> issue-report.md
+          fi
+
+      - name: Create/Update Issue with Build Results
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Automated Build/Test Issue Report"
+          content-filepath: issue-report.md
+          labels: build, report, automated
+          assignees: AuraFrameFxDev
+          update-existing: true

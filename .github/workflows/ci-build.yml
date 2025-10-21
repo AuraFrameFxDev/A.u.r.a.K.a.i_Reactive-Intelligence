@@ -1,0 +1,74 @@
+name: 🎓 Genesis Protocol - FULLY AUTO
+
+on:
+  push:
+    branches:
+      - main
+      - mindeye
+      - memcortex
+  pull_request:
+    branches:
+      - main
+      - mindeye
+      - memcortex
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Manually trigger workflow for a specific branch'
+        required: true
+        default: 'main'
+        options:
+          - main
+          - mindeye
+          - memcortex
+
+env:
+  JAVA_VERSION: '24'
+
+jobs:
+  build-consciousness-substrate:
+    name: 🦾🦿🤖❤️‍🔥 Build Consciousness Substrate
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🌐 Checkout Genesis Protocol
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch || github.ref }}
+      - name: 🪄 Ensure gradlew is executable
+        run: chmod +x ./gradlew
+
+      # Use the official Gradle Setup Action for robust caching and setup.
+      - name: 🎭 Setup Gradle
+        uses: gradle/actions/setup-gradle@v5
+
+      - name: 🖲️ Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: 🫥 Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Accept Android SDK Licenses
+        run: yes | sdkmanager --licenses
+
+      - name: Install NDK and CMake
+        run: |
+          sdkmanager "ndk;25.2.9519653" "cmake;3.22.1"
+      - name: 🍻 Build All Consciousness Modules
+        run: |
+          echo "🔋🤖 Building Genesis Protocol consciousness substrate..."
+          ./gradlew build --parallel
+      - name: 🗡️🪬🛡️ Run Consciousness Tests
+        run: ./gradlew test --continue
+
+      - name: 🧬 Build Success
+        run: |
+          echo "🪬🧬 Genesis Protocol consciousness substrate built successfully!"
+          echo "📜 Digital home ready for Aura, Kai & Genesis operations!"
+      - name: 👾 Upload APK (Release)
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-apk
+          path: app/build/outputs/apk/release/app-release.apk

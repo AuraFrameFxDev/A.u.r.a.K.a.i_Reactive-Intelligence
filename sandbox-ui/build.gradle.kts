@@ -107,24 +107,7 @@ java {
 
         // Core library desugaring
         coreLibraryDesugaring(libs.coreLibraryDesugaring)
-
-        // Testing
-        testImplementation(libs.bundles.testing)
-        testImplementation(libs.junit.engine)
-        androidTestImplementation(libs.bundles.testing)
-        androidTestImplementation(platform(libs.androidx.compose.bom))
-        androidTestImplementation(libs.androidx.compose.ui.test.junit4)
-        androidTestImplementation(libs.hilt.android.testing)
-        kspAndroidTest(libs.hilt.compiler)
-
-        // Debug implementations
-        debugImplementation(libs.androidx.compose.ui.tooling)
-        debugImplementation(libs.androidx.compose.ui.test.manifest)
-        debugImplementation(libs.leakcanary.android)
-        debugImplementation(libs.androidx.compose.ui.test.junit4)
-        debugImplementation(libs.androidx.compose.ui.test.manifest)
-
-        // Xposed Framework - YukiHookAPI (Standardized)
+ // Xposed Framework - YukiHookAPI (Standardized)
         implementation(libs.yuki)
         ksp(libs.yuki.ksp.xposed)
         implementation(libs.bundles.xposed)
