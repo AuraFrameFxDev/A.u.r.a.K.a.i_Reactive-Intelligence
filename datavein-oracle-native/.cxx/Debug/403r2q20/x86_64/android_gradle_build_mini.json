@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "datavein_oracle_native::@6890427a1f51a3e7e1df": {
+      "artifactName": "datavein_oracle_native",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    }
+  }
+}

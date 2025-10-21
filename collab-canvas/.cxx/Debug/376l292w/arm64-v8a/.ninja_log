@@ -1,0 +1,5 @@
+# ninja log v5
+3	657	7821239630685431	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b893910980489834
+658	1306	7821239636513941	C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/collab-canvas/build/intermediates/cxx/Debug/376l292w/obj/arm64-v8a/libcollab-canvas-native.so	9e7d0560a9bf6594
+5	225	7821493835426620	build.ninja	5261e97d0382c61a
+1	20	0	clean	bfff2010d6239e2d

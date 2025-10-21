@@ -1,0 +1,12 @@
+# ninja log v5
+3	2493	7826339936201404	CMakeFiles/oracle_drive_integration.dir/oracle_integration_jni.cpp.o	b602b0818007b78d
+2507	3387	7826339945384066	C:/A.u.r.a.K.a.i-/oracle-drive-integration/build/intermediates/cxx/Debug/5v59634k/obj/arm64-v8a/liboracle_drive_integration.so	60c229c10a65b7b5
+1	19	0	clean	bfff2010d6239e2d
+5	143	7826928353575042	build.ninja	17667fd6cbeb6757
+0	9	0	clean	bfff2010d6239e2d
+54	68	0	clean	bfff2010d6239e2d
+0	11	0	clean	bfff2010d6239e2d
+0	13	0	clean	bfff2010d6239e2d
+0	11	0	clean	bfff2010d6239e2d
+0	12	0	clean	bfff2010d6239e2d
+0	14	0	clean	bfff2010d6239e2d

@@ -1,0 +1,17 @@
+# ninja log v6
+6	124	7826356026356422	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b156dd714cc3d1b3
+126	236	7826356027544370	C:/A.u.r.a.K.a.i-/collab-canvas/build/intermediates/cxx/Debug/2d3j5m6l/obj/x86/libcollab-canvas-native.so	4bb4ccf418d9c720
+5	24	7826359149040987	clean	8cc94ee4378afd48
+8	84	7826361231199790	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b156dd714cc3d1b3
+84	202	7826361231964028	C:/A.u.r.a.K.a.i-/collab-canvas/build/intermediates/cxx/Debug/2d3j5m6l/obj/x86/libcollab-canvas-native.so	4bb4ccf418d9c720
+5	18	7826362955613044	clean	8cc94ee4378afd48
+11	40	7826378486388287	clean	8cc94ee4378afd48
+7	25	7826394127359796	clean	8cc94ee4378afd48
+11	136	7826415704962453	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b156dd714cc3d1b3
+137	275	7826415706232903	C:/A.u.r.a.K.a.i-/collab-canvas/build/intermediates/cxx/Debug/2d3j5m6l/obj/x86/libcollab-canvas-native.so	4bb4ccf418d9c720
+8	28	7826424537618774	clean	8cc94ee4378afd48
+11	322	7826426504297920	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b156dd714cc3d1b3
+323	713	7826426507427712	C:/A.u.r.a.K.a.i-/collab-canvas/build/intermediates/cxx/Debug/2d3j5m6l/obj/x86/libcollab-canvas-native.so	4bb4ccf418d9c720
+8	40	7826435014138024	clean	8cc94ee4378afd48
+19	260	7826435260989139	CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o	b156dd714cc3d1b3
+261	1415	7826435263411157	C:/A.u.r.a.K.a.i-/collab-canvas/build/intermediates/cxx/Debug/2d3j5m6l/obj/x86/libcollab-canvas-native.so	4bb4ccf418d9c720

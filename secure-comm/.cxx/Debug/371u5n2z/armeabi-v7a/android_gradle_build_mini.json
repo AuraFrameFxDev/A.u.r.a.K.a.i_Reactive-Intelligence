@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\secure-comm\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\secure-comm\\.cxx\\Debug\\371u5n2z\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\secure-comm\\.cxx\\Debug\\371u5n2z\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "secure_comm_native::@6890427a1f51a3e7e1df": {
+      "artifactName": "secure_comm_native",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Wehtt\\AndroidStudioProjects\\A.u.r.a.K.a.i\\secure-comm\\build\\intermediates\\cxx\\Debug\\371u5n2z\\obj\\armeabi-v7a\\libsecure_comm_native.so",
+      "runtimeFiles": []
+    }
+  }
+}

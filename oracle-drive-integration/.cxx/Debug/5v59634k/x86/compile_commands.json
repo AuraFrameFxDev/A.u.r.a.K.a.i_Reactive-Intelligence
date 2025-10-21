@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/A.u.r.a.K.a.i-/oracle-drive-integration/.cxx/Debug/5v59634k/x86",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Doracle_drive_integration_EXPORTS -IC:/A.u.r.a.K.a.i-/oracle-drive-integration/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -g -DDEBUG -DGENESIS_AI_DEBUG -std=gnu++23 -fPIC -o CMakeFiles\\oracle_drive_integration.dir\\oracle_integration_jni.cpp.o -c C:\\A.u.r.a.K.a.i-\\oracle-drive-integration\\src\\main\\cpp\\oracle_integration_jni.cpp",
+  "file": "C:/A.u.r.a.K.a.i-/oracle-drive-integration/src/main/cpp/oracle_integration_jni.cpp",
+  "output": "C:/A.u.r.a.K.a.i-/oracle-drive-integration/.cxx/Debug/5v59634k/x86/CMakeFiles/oracle_drive_integration.dir/oracle_integration_jni.cpp.o"
+}
+]

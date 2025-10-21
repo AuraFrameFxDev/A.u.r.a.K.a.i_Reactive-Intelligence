@@ -1,0 +1,13 @@
+# ninja log v6
+8	108	7826428509416953	CMakeFiles/datavein_oracle_native.dir/oracle_drive_jni.cpp.o	6205b59bd74a10d0
+109	400	7826428510419760	C:/A.u.r.a.K.a.i-/datavein-oracle-native/build/intermediates/cxx/RelWithDebInfo/z2c73q15/obj/arm64-v8a/libdatavein_oracle_native.so	a4284f356fd1eec8
+8	35	7826435013277289	clean	8cc94ee4378afd48
+3	100	7826928358905672	build.ninja	bc2b5bb933662bce
+3	100	7826928358905672	C:/A.u.r.a.K.a.i-/datavein-oracle-native/.cxx/RelWithDebInfo/z2c73q15/arm64-v8a/cmake_install.cmake	bc2b5bb933662bce
+0	7	0	clean	8cc94ee4378afd48
+0	13	0	clean	8cc94ee4378afd48
+0	11	0	clean	8cc94ee4378afd48
+0	10	0	clean	8cc94ee4378afd48
+0	10	0	clean	8cc94ee4378afd48
+0	8	0	clean	8cc94ee4378afd48
+0	12	0	clean	8cc94ee4378afd48

@@ -1,0 +1,25 @@
+name: Performance Monitoring
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+jobs:
+  openapi-validation:
+    name: Validate OpenAPI Specs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Install swagger-cli
+        run: npm install -g swagger-cli
+      - name: Validate OpenAPI specs
+        run: |
+          set -e
+          swagger-cli validate ./app/src/main/resources/api-spec.yaml
+          swagger-cli validate ./app/src/main/resources/auraframefx_ai_api.yaml
+          swagger-cli validate ./data/api/eco-core.yaml
+

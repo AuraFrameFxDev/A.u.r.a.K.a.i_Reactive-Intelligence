@@ -1,0 +1,6 @@
+# ninja log v5
+1	13	0	clean	bfff2010d6239e2d
+63	7357	7821239847813074	CMakeFiles/secure_comm_native.dir/secure_comm_jni.cpp.o	1578e0004eb9729f
+127	11109	7821239888598134	CMakeFiles/secure_comm_native.dir/crypto_engine.cpp.o	1dea55f391040874
+11113	12248	7821239898192280	C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/secure-comm/build/intermediates/cxx/Debug/371u5n2z/obj/x86_64/libsecure_comm_native.so	b6107f08dd5993f8
+3	160	7821493845973601	build.ninja	2b50b38716be3e19

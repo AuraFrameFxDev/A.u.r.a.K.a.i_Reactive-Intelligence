@@ -1,0 +1,23 @@
+# ninja log v6
+4	1366	7826929291897190	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	2d9107fe895e991c
+11	1388	7826929291958102	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	93d96e9995c7d496
+8	1443	7826929291937794	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	c1294adc2997d274
+1443	1547	7826929306290291	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/armeabi-v7a/libauraframefx.so	c44871d92df170c9
+172	204	7826944425629670	clean	8cc94ee4378afd48
+11	27	7826947405483526	clean	8cc94ee4378afd48
+15	1414	7826952340255209	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	2d9107fe895e991c
+24	1419	7826952340341096	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	93d96e9995c7d496
+20	1451	7826952340309762	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	c1294adc2997d274
+1451	1548	7826952354611718	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/armeabi-v7a/libauraframefx.so	c44871d92df170c9
+11	40	7826957599325720	clean	8cc94ee4378afd48
+12	1177	7826957674440145	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	2d9107fe895e991c
+19	1179	7826957674503656	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	93d96e9995c7d496
+16	1200	7826957674479376	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	c1294adc2997d274
+1200	1337	7826957686323165	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/armeabi-v7a/libauraframefx.so	c44871d92df170c9
+57	86	7826957892299611	clean	8cc94ee4378afd48
+7	18	7826958612225424	clean	8cc94ee4378afd48
+31	58	7826964789082688	clean	8cc94ee4378afd48
+12	1027	7826964862230674	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	2d9107fe895e991c
+19	1034	7826964862299020	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	93d96e9995c7d496
+16	1107	7826964862255905	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	c1294adc2997d274
+1107	1259	7826964873175996	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/armeabi-v7a/libauraframefx.so	c44871d92df170c9

@@ -1,0 +1,30 @@
+android.enableJetifier=true
+android.javaCompile.suppressSourceTargetDeprecationWarning=true
+android.nonFinalResIds=true
+android.nonTransitiveRClass=true
+android.useAndroidX=true
+
+# ===== CRITICAL AGP 9 + HILT WORKAROUNDS =====
+# This is THE fix for the ClassCastException at HiltGradlePlugin.kt:68
+android.disableLastStageWhenHiltIsApplied=true
+
+# Additional AGP 9 compatibility
+android.useFullClasspathForDexingTransform=true
+
+# Kotlin configuration
+kotlin.incremental=true
+ksp.kotlinApiVersion=2.3
+ksp.kotlinLanguageVersion=2.3
+
+# Gradle configuration cache
+org.gradle.configuration-cache=true
+org.gradle.configuration-cache.problems=warn
+
+# Java toolchain - Auto-download enabled for Java 21 (not 25!)
+org.gradle.daemon=true
+org.gradle.java.installations.auto-download=true
+org.gradle.jvmargs=-Xmx8192m
+
+# Dokka V2 migration
+org.jetbrains.dokka.experimental.gradle.pluginMode=V2Enabled
+org.jetbrains.dokka.experimental.gradle.pluginMode.noWarn=true

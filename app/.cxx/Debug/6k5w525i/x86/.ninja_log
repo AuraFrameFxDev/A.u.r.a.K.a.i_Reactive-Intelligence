@@ -1,0 +1,17 @@
+# ninja log v6
+11	975	7826952356135927	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	c95ed632a60bf4bb
+4	984	7826952356071949	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	f9006c9a265b932
+8	1030	7826952356110005	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	d528b67f30dc49b
+1030	1112	7826952366323753	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86/libauraframefx.so	23e65f416f0dde53
+9	25	7826957600716628	clean	8cc94ee4378afd48
+14	1258	7826957688341570	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	f9006c9a265b932
+22	1286	7826957688425814	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	c95ed632a60bf4bb
+19	1364	7826957688384888	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	d528b67f30dc49b
+1365	1488	7826957701857055	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86/libauraframefx.so	23e65f416f0dde53
+9	23	7826957893460918	clean	8cc94ee4378afd48
+6	18	7826958613148521	clean	8cc94ee4378afd48
+10	23	7826964790645071	clean	8cc94ee4378afd48
+12	1485	7826964875348921	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	f9006c9a265b932
+16	1509	7826964875384978	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	d528b67f30dc49b
+19	1514	7826964875420811	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	c95ed632a60bf4bb
+1515	1642	7826964890376530	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86/libauraframefx.so	23e65f416f0dde53

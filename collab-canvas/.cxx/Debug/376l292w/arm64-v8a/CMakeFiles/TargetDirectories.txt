@@ -1,0 +1,3 @@
+C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/collab-canvas/.cxx/Debug/376l292w/arm64-v8a/CMakeFiles/collab-canvas-native.dir
+C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/collab-canvas/.cxx/Debug/376l292w/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Wehtt/AndroidStudioProjects/A.u.r.a.K.a.i/collab-canvas/.cxx/Debug/376l292w/arm64-v8a/CMakeFiles/rebuild_cache.dir

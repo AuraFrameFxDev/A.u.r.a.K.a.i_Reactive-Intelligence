@@ -1,0 +1,23 @@
+# ninja log v6
+11	1445	7826929330353479	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	7e729cb255a340e0
+4	1459	7826929330277644	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	7b3a6f4d96b48136
+8	1509	7826929330323122	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	1377d9730db2f14f
+1509	1602	7826929345330075	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86_64/libauraframefx.so	ea9d2ea9cf193164
+13	71	7826944429753706	clean	8cc94ee4378afd48
+10	21	7826947407404143	clean	8cc94ee4378afd48
+12	922	7826952367835888	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	7b3a6f4d96b48136
+18	924	7826952367886456	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	7e729cb255a340e0
+15	954	7826952367861344	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	1377d9730db2f14f
+955	1039	7826952377253421	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86_64/libauraframefx.so	ea9d2ea9cf193164
+7	23	7826957601214633	clean	8cc94ee4378afd48
+14	1065	7826957703597552	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	7b3a6f4d96b48136
+21	1071	7826957703670952	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	7e729cb255a340e0
+18	1121	7826957703635047	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	1377d9730db2f14f
+1121	1232	7826957714672674	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86_64/libauraframefx.so	ea9d2ea9cf193164
+9	22	7826957893976858	clean	8cc94ee4378afd48
+7	18	7826958613612944	clean	8cc94ee4378afd48
+11	23	7826964791271203	clean	8cc94ee4378afd48
+13	1202	7826964892187373	CMakeFiles/auraframefx.dir/auraframefx.cpp.o	7b3a6f4d96b48136
+20	1205	7826964892253005	CMakeFiles/auraframefx.dir/ai/cascade/src/CascadeAIService.cpp.o	7e729cb255a340e0
+17	1250	7826964892227583	CMakeFiles/auraframefx.dir/language_id_l2c_jni.cpp.o	1377d9730db2f14f
+1250	1368	7826964904549604	C:/Users/Wehtt/OneDrive/Aurakai/app/build/intermediates/cxx/Debug/6k5w525i/obj/x86_64/libauraframefx.so	ea9d2ea9cf193164

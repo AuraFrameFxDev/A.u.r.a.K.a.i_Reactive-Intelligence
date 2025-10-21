@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/A.u.r.a.K.a.i-/collab-canvas/.cxx/RelWithDebInfo/1f144z2a/armeabi-v7a",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dcollab_canvas_native_EXPORTS -IC:/A.u.r.a.K.a.i-/collab-canvas/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles\\collab-canvas-native.dir\\collab_canvas_native.cpp.o -c C:\\A.u.r.a.K.a.i-\\collab-canvas\\src\\main\\cpp\\collab_canvas_native.cpp",
+  "file": "C:/A.u.r.a.K.a.i-/collab-canvas/src/main/cpp/collab_canvas_native.cpp",
+  "output": "C:/A.u.r.a.K.a.i-/collab-canvas/.cxx/RelWithDebInfo/1f144z2a/armeabi-v7a/CMakeFiles/collab-canvas-native.dir/collab_canvas_native.cpp.o"
+}
+]
