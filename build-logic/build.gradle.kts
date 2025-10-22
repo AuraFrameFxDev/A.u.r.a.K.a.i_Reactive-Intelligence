@@ -1,4 +1,4 @@
-﻿// AOSP-ReGenesis/build-logic/build.gradle.kts
+// AOSP-ReGenesis/build-logic/build.gradle.kts
 plugins {
     `kotlin-dsl`
 
@@ -13,12 +13,11 @@ group = "dev.aurakai.auraframefx.buildlogic"
 val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
 
 dependencies {
-    implementation("com.android.tools.build:gradle:9.0.0-alpha01")
+    implementation("com.android.tools.build:gradle:9.0.0-alpha11")
     implementation("com.google.dagger:hilt-android-gradle-plugin:2.57.2")
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0-Beta1")
-    implementation("org.jetbrains.kotlin:kotlin-serialization:2.3.0-Beta1")
-    implementation("org.jetbrains.kotlin:kotlin-allopen:2.3.0-Beta1")
-    implementation("com.google.dagger:hilt-android-gradle-plugin:2.57.2")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0-Beta4")
+    implementation("org.jetbrains.kotlin:kotlin-serialization:2.0.0-Beta4")
+    implementation("org.jetbrains.kotlin:kotlin-allopen:2.0.0-Beta4")
 
     // Compile-time only dependency so convention plugin sources can reference
     // Kotlin Gradle types (KotlinAndroidProjectExtension, etc.) without
@@ -29,7 +28,8 @@ dependencies {
 
     // Test dependencies
     testImplementation("org.junit.jupiter:junit-jupiter-params:6.0.0")
-    testImplementation("org.gradle:gradle-tooling-api:9.1.0")
+
+
     testImplementation(gradleTestKit())
 }
 

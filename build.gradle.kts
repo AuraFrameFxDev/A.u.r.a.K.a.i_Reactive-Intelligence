@@ -1,14 +1,11 @@
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.LibraryExtension
 import org.jetbrains.kotlin.gradle.plugin.KotlinBasePlugin
-import org.gradle.api.artifacts.VersionCatalogsExtension
 
 plugins {
     id("org.jetbrains.kotlin.android") version "2.3.0-Beta1" apply false
-    id("com.android.library") version "9.0.0-alpha10" apply false
-    id("com.android.application") version "9.0.0-alpha10" apply false
-    id("com.google.devtools.ksp") version "2.2.21-RC2-2.0.4" apply false
-    // ...other plugins...
+    id("com.android.library") version "9.0.0-alpha11" apply false
+    id("com.android.application") version "9.0.0-alpha11" apply false // ...other plugins...
 }
 buildscript {
     repositories {

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\A.u.r.a.K.a.i-\\sandbox-ui\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\A.u.r.a.K.a.i-\\sandbox-ui\\.cxx\\Debug\\2k2q6d5s\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\A.u.r.a.K.a.i-\\sandbox-ui\\.cxx\\Debug\\2k2q6d5s\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "x86",
+      "output": "C:\\A.u.r.a.K.a.i-\\sandbox-ui\\build\\intermediates\\cxx\\Debug\\2k2q6d5s\\obj\\x86\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

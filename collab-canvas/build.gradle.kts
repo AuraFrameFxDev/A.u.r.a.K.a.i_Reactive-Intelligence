@@ -1,5 +1,3 @@
-import com.google.devtools.ksp.processing.kspCommonArgParser
-
 // Apply plugins (versions via version catalog)
 plugins {
     id("com.android.library")
@@ -7,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.aurakai.auraframefx.collab-canvas"
+    namespace = "dev.aurakai.auraframefx.collab_canvas"
     compileSdk = 36
 
     defaultConfig {

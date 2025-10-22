@@ -36,7 +36,7 @@ PROJECT_ID = os.getenv("GENESIS_PROJECT_ID", "auraframefx")
 LOCATION = os.getenv("GENESIS_LOCATION", "us-central1")
 
 MODEL_CONFIG = {
-    "name": os.getenv("GENESIS_MODEL", "gemini-1.5-pro-002"),
+    "name": os.getenv("GENESIS_MODEL", "gemini-2.5-pro"),
     "temperature": float(os.getenv("GENESIS_TEMPERATURE", "0.8")),
     "top_p": float(os.getenv("GENESIS_TOP_P", "0.9")),
     "top_k": int(os.getenv("GENESIS_TOP_K", "40")),

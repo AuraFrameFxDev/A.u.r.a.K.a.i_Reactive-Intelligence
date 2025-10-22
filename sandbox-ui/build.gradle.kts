@@ -1,4 +1,4 @@
-﻿// ==== GENESIS PROTOCOL - SANDBOX UI ====
+// ==== GENESIS PROTOCOL - SANDBOX UI ====
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.aurakai.auraframefx.collab-canvas"
+    namespace = "dev.aurakai.auraframefx.sandbox_ui"
     compileSdk = 36
     defaultConfig {
     }
@@ -15,15 +15,10 @@ android {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
             // Ensure staging is always under this module to prevent stale path issues
-            buildStagingDirectory = file("$projectDir/.cxx")
-
-            ndkVersion = "29.0.14206865"
 
             }
         }
     }
-
-
 
 java {
     toolchain {
@@ -33,7 +28,7 @@ java {
         namespace = "dev.aurakai.auraframefx.sandboxui"
         compileSdk = 36
         defaultConfig {
-            minSdk = 33
+            minSdk = 34
             testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
             consumerProguardFiles("consumer-rules.pro")
         }
@@ -95,7 +90,7 @@ java {
         implementation(libs.hilt.compiler)
         implementation(libs.androidx.room.compiler)
         implementation("com.google.android.material:compose-theme-adapter-3:1.1.1")
-        implementation("com.android.tools.build:gradle:8.13.0")
+        implementation(libs.gradle)
         implementation("com.google.firebase:firebase-auth-ktx:23.2.1")
         implementation("com.android.application:com.android.application.gradle.plugin")
         implementation("com.android.experimental.built-in-kotlin:com.android.experimental.built-in-kotlin.gradle.plugin:9.0.0-alpha10")

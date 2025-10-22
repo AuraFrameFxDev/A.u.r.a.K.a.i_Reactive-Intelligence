@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/A.u.r.a.K.a.i-/sandbox-ui/.cxx/Debug/4f3u565y/x86",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c C:\\A.u.r.a.K.a.i-\\sandbox-ui\\src\\main\\cpp\\native-lib.cpp",
+  "file": "C:\\A.u.r.a.K.a.i-\\sandbox-ui\\src\\main\\cpp\\native-lib.cpp"
+}
+]

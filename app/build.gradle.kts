@@ -1,6 +1,8 @@
+import com.android.build.gradle.internal.utils.addComposeArgsToKotlinCompile
+
 // ==== GENESIS PROTOCOL - MAIN APPLICATION ====
 plugins {
-    id("com.android.application") version "9.0.0-alpha10"
+    id("com.android.application") version "9.0.0-alpha11"
     id("genesis.android.hilt") version "2.57.2" apply false
 }
 
@@ -8,9 +10,8 @@ android {
     namespace = "dev.aurakai.auraframefx"
     compileSdk = 36
     defaultConfig {
-        applicationId = "dev.aurakai.auraframefx"
+        applicationId = "dev.aurakai.auraframefx.app"
         minSdk = 34
-        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
         multiDexEnabled = true
@@ -53,6 +54,11 @@ android {
 }
 
 dependencies {
+
+    implementation("com.github.topjohnwu.libsu:core:5.0.4")
+    implementation("com.github.topjohnwu.libsu:io:5.0.4")
+    implementation("com.github.topjohnwu.libsu:service:5.0.4")
+    
     implementation(project(":core-module"))
     implementation(project(":feature-module"))
     implementation(project(":romtools"))
@@ -69,6 +75,10 @@ dependencies {
     implementation(project(":extendsysf"))
     implementation(project(":benchmark"))
     implementation(libs.hilt.android)
+    implementation(libs.gradle)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)

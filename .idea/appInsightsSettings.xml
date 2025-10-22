@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="dev.aurakai.auraframefx.debug" />
-                  <option name="mobileSdkAppId" value="1:35417750637:android:b2fdca4cc9fd33512a1364" />
-                  <option name="projectId" value="auraframefx" />
-                  <option name="projectNumber" value="35417750637" />
+                  <option name="appId" value="PLACEHOLDER" />
+                  <option name="mobileSdkAppId" value="" />
+                  <option name="projectId" value="" />
+                  <option name="projectNumber" value="" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

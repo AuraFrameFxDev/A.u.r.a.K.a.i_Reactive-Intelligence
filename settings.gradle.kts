@@ -4,34 +4,29 @@
 // Re:Genesis - Advanced Android OS Project
 // Version: 2025.09.02-03 - Full Enhancement Suite
 
-// Enable Gradle features
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 
 pluginManagement {
     // Apply plugin classpath helper so buildscript classpath (KSP, AGP, etc.) is available early
-apply(from = "gradle/plugin-classpath.gradle.kts")
+    apply(from = "gradle/plugin-classpath.gradle.kts")
 
-// Include build-logic for convention plugins
+    // Include build-logic for convention plugins
     includeBuild("build-logic")
-
-// Configure toolchain auto-provisioning
-
-
-// Plugin and dependency resolution
-pluginManagement {
+    
     repositories {
         // Primary repositories - Google Maven must be first for Hilt
         google()
         gradlePluginPortal()
-        google()
         mavenCentral()
-
-        // Android alpha/preview versions
+        maven { url = uri("https://jitpack.io") }
+        
+        // AndroidX Snapshots
         maven {
             url = uri("https://androidx.dev/kmp/builds/11950322/artifacts/snapshots/repository")
             name = "AndroidX Snapshot"
         }
+        
 
         // Gradle releases (for org.gradle artifacts like gradle-tooling-api)
         maven {
@@ -49,7 +44,7 @@ pluginManagement {
 
     }
 }
-}
+
 dependencyResolutionManagement {
     // Enforce consistent dependency resolution
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -58,6 +53,25 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+        
+        // AndroidX Snapshots
+        maven {
+            url = uri("https://androidx.dev/kmp/builds/11950322/artifacts/snapshots/repository")
+            name = "AndroidX Snapshot"
+        }
+        
+        // Gradle releases (for org.gradle artifacts like gradle-tooling-api)
+        maven {
+            url = uri("https://repo.gradle.org/gradle/libs-releases")
+            name = "Gradle Releases"
+        }
+        
+        // AndroidX Compose
+        maven {
+            url = uri("https://androidx.dev/storage/compose-compiler/repository/")
+            name = "AndroidX Compose"
+        }
     }
 }
 

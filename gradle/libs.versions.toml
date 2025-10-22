@@ -1,5 +1,7 @@
 [versions]
 agp = "9.0.0-alpha10"
+gradleToolingApiTest = "9.1.0"
+gradleVersion = "8.13.0"
 kotlin = "2.3.0-Beta1"
 ksp = "2.2.21-RC-2-2.0.4"
 java = "24"
@@ -132,6 +134,8 @@ firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messa
 firebase-config-ktx = { group = "com.google.firebase", name = "firebase-config-ktx", version = "22.1.2" }
 
 # Kotlinx
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradleVersion" }
+gradle-tooling-api-test = { module = "org.gradel:gradle-tooling-api-test", version.ref = "gradleToolingApiTest" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
@@ -157,6 +161,7 @@ desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref 
 # Additional utilities used by core-module
 commons-io = { module = "commons-io:commons-io", version.ref = "commonsIo" }
 commons-compress = { module = "org.apache.commons:commons-compress", version.ref = "commonsCompress" }
+x-x-x = { module = "org.gradle.gradle.tooling-api:9.1.0" }
 xz = { module = "org.tukaani:xz", version.ref = "xz" }
 
 # Hilt & plugins
